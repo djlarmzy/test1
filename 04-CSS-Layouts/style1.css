@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+h2 {
+  text-align: center;
+  background-color: rgb(246, 246, 246);
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 15px;
+}
+.shipping {
+  text-transform: uppercase;
+  color: rgb(117, 117, 117);
+  margin-bottom: 20px;
+}
+.sale {
+  background-color: red;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+  letter-spacing: 2px;
+  /*width: 40px;
+  text-align: center;*/
+}
+
+article button {
+  background-color: black;
+  text-transform: uppercase;
+  color: white;
+}
+
+.product {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.detailed-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+.detailed-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.detailed-list li {
+  margin-bottom: 10px;
+}
+
+.add-cart {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top: 4px solid black;
+}
+.add-cart:hover {
+  color: #000;
+  background-color: #fff;
+}
+.colour {
+}
+.colour1 {
+  width: 100px;
+  background-color: #000;
+}
+.colour2 {
+  width: 100px;
+  background-color: blue;
+}
+.colour3 {
+  width: 100px;
+  background-color: red;
+}
+.colour4 {
+  width: 100px;
+  background-color: yellow;
+}
+.colour5 {
+  width: 100px;
+  background-color: green;
+}
+.colour6 {
+  width: 100px;
+  background-color: brown;
+}
